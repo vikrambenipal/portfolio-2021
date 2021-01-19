@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "title": "Game Development Project",
+        "headline": "A project I worked on etc",
+        "link": "https://www.google.ca/",
+        "github": "https://github.com/vikrambenipal/gravity-game/tree/master",
+        "tools": [
+            "Unity3D",
+            "C#"
+        ],
+        "description": "A much longer description...",
+        "media": "like an image or a video"
+    }
+]

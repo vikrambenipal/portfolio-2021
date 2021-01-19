@@ -1,3 +1,6 @@
+import React from 'react-router-dom';
+import Projects from './data/projects.json';
+
 import './App.css';
 
 function App() {
