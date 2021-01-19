@@ -1,12 +1,14 @@
 import React from 'react-router-dom';
-import Projects from './data/projects.json';
+import About from './components/About';
 
 import './App.css';
+import ProjectList from './components/ProjectList';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <About />
+      <ProjectList />
     </div>
   );
 }

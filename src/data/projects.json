@@ -10,6 +10,21 @@
             "C#"
         ],
         "description": "A much longer description...",
-        "media": "like an image or a video"
+        "thumbnail": "img src",
+        "media": "any other images or videos"
+    },
+    {
+        "id": 2,
+        "title": "Web Development Project",
+        "headline": "A project I worked on etc",
+        "link": "https://www.google.ca/",
+        "github": "https://github.com/vikrambenipal/gravity-game/tree/master",
+        "tools": [
+            "Javascript",
+            "Bootstrap"
+        ],
+        "description": "A much longer description...",
+        "thumbnail": "img src",
+        "media": "any other images or videos"
     }
 ]
