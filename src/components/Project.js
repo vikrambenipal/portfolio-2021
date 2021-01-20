@@ -3,6 +3,9 @@ import dummyPhoto from '../dummy.png';
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Project = (props) => {
@@ -10,7 +13,7 @@ const Project = (props) => {
     const { title, headline, tools, thumbnail } = props;
     return (
         <div>
-            <Card style={{ width: '20rem' }}>
+            <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={dummyPhoto} />
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
