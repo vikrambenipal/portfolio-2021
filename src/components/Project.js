@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import dummyPhoto from '../dummy.png';
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
@@ -10,9 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Project = (props) => {
 
-    const { title, headline, tools, thumbnail } = props;
+    const { title, headline, tools, thumbnail, description, github, media } = props;
     return (
-        <div>
+        <Fragment>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={dummyPhoto} />
                 <Card.Body>
@@ -23,14 +23,18 @@ const Project = (props) => {
                         state: {
                         title,
                         headline,
-                        tools
+                        tools,
+                        thumbnail,
+                        description,
+                        github,
+                        media
                         }
                     }}>
                         <Button variant="primary">Project Information</Button>
                     </Link>
                 </Card.Body>
             </Card>
-        </div>
+        </Fragment>
     )
 }
 
