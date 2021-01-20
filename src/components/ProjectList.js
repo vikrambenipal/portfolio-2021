@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react'
+import React from 'react'
 import Project from './Project';
 import projectData from '../data/projects.json';
 import Container from 'react-bootstrap/Container';
